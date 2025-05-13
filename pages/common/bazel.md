@@ -3,26 +3,26 @@
 > Open-source build and test tool similar to Make, Maven, and Gradle.
 > More information: <https://bazel.build/reference/command-line-reference>.
 
-- Build the specified target in the workspace:
+- Build a specific target in the workspace:
 
-`bazel build {{target}}`
+`bazel build {{//path/to/package:target}}`
 
-- Remove output files and stop the server if running:
+- Remove output files and stop the Bazel server if running:
 
 `bazel clean`
 
-- Stop the bazel server:
+- Stop the Bazel server:
 
 `bazel shutdown`
 
-- Display runtime info about the bazel server:
+- Display runtime information about the Bazel server:
 
 `bazel info`
 
-- Display help:
+- Display help about available commands:
 
 `bazel help`
 
-- Display version:
+- Display version information:
 
 `bazel version`
